@@ -1,0 +1,60 @@
+/*
+Theme Name: Responsive Child Theme
+Template: responsive
+*/
+
+@import url("../responsive/rtl.css");
+
+/** FONT CHANGE **/
+
+body {
+    font-family: 'Droid Arabic Naskh', serif;
+}
+
+
+#fw_logo_top {
+    direction: ltr;
+}
+
+.social-icons-custom {
+    text-align: left;
+}
+
+.social-icon {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+
+#header-menu {
+    max-width: 960px;
+    
+}
+
+.ytchagallery li {
+    margin-right: 0px !important;
+}
+
+
+.lang-fr {
+    font-family: 'PT Sans', sans-serif;
+}
+
+.lang-en {
+    font-family: 'PT Sans', sans-serif;
+}
+
+
+/** Meteor slider specific sliders **/
+
+
+.meteor-slides .meteor-buttons {
+    bottom: 10px;
+    height: 9px;
+    left: 10%;
+    margin: 0;
+    /*padding: 6px 0 0;*/
+    position: absolute;
+    /*width: 100%;*/
+    z-index: 999;
+}
